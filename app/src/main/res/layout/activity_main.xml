@@ -55,6 +55,15 @@
             />
 
     </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/btnsubmit"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="View All"
+        android:id="@+id/btnviewall"
+        />
 
     <Button
         android:layout_width="match_parent"
