@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FebKotlin">
         <activity
+            android:name=".view.CounterActivity"
+            android:exported="false" />
+        <activity
             android:name=".StudentDetailsActivity"
             android:exported="false" />
         <activity

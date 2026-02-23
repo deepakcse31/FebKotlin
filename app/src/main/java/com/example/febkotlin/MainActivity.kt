@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.lifecycle.lifecycleScope
+import com.example.febkotlin.view.CounterActivity
 import kotlinx.coroutines.launch
 
 class MainActivity : AppCompatActivity() {
@@ -48,7 +49,7 @@ class MainActivity : AppCompatActivity() {
 
         btnviewall.setOnClickListener {
 
-            val intent = Intent(this, StudentDetailsActivity::class.java)
+            val intent = Intent(this, CounterActivity::class.java)
             startActivity(intent)
         }
 

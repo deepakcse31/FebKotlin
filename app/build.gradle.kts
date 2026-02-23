@@ -77,4 +77,8 @@ dependencies {
     // optional - Paging 3 Integration
     implementation("androidx.room:room-paging:$room_version")
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1")
+
+    // optional - Paging 3 Integration
+    implementation("androidx.room:room-paging:$room_version")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1")
 }
